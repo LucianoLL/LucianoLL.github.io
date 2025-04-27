@@ -1,7 +1,7 @@
 h1{
     color: #ffffff;
     font-family: Tahoma;
-    font-size: 400%;
+    font-size: 450%;
     text-align: center;
 }
 
@@ -12,21 +12,30 @@ h2{
     text-align: center;
 }
 
-.subHeadText{
-    color: #ffffff;
-    font-family: Tahoma;
-    font-size: 150%;
-    text-align: center;
-}
-
 p{
     color: #ffffff;
     font-family: Tahoma;
-    font-size: 100%;
+    font-size: 150%;
 }
 
-table{
+.tableClass01{
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+}
+
+.buttonClass01{
+    background-color: #588eb3;
+    border-style: solid;
+    border-color: #ffffff;
+    color: #ffffff;
+    font-family: monospace;
+    font-size: 150%;
+}
+
+.hyperlinkClass01{
+    color: #ffffff;
+    font-family:monospace;
+    font-size: 150%;
+    text-align: center;
 }
