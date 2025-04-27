@@ -4,7 +4,7 @@ div{
     border-style: dashed;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 85%;
 }
 
 h1{
@@ -17,7 +17,7 @@ h1{
 h2{
     color: #ffffff;
     font-family: Tahoma;
-    font-size: 200%;
+    font-size: 150%;
     text-align: center;
 }
 
@@ -33,13 +33,14 @@ th{
     background-color: #588eb3;
     border-style: solid;
     color: #ffffff;
-    font-size: 200%;
+    font-size: 300%;
     font-family: monospace;
 }
 
 .tableClass01{
     margin-left: auto;
     margin-right: auto;
+    width: 90%;
 }
 
 .tableClass02{
@@ -59,8 +60,6 @@ th{
     border-right-style: solid;
     text-align: center;
 }
-
-
 
 .buttonClass01{
     background-color: #588eb3;

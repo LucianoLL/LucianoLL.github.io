@@ -20,9 +20,11 @@
         </h2>
 
         <table style="margin-left: auto;
-                      margin-right: auto">
+                      margin-right: auto;
+                      table-layout: fixed;
+                      width: 75%;">
             <tr>
-                <td>
+                <td style="text-align: center;">
                     <a href="https://www.linkedin.com/in/luciano-loma-lorenzana-510371188/"
                        target="_blank">
                         <button  class="buttonClass01">
@@ -30,7 +32,7 @@
                         </button>
                     </a>
                 </td>
-                <td>
+                <td style="text-align: center;">
                     <a href="https://github.com/LucianoLL"
                        target="_blank">
                         <button class="buttonClass01">
@@ -78,7 +80,7 @@
         </table>
 
         <hr>
-        <h2>
+        <h2 style="font-size: 250%;">
             Personal Projects
         </h2>
         <hr>
@@ -87,18 +89,25 @@
             <tr>
                 <th>MedTechPrograms</th>
                 <th>YourIntroToBio</th>
+                <th>Unofficial Chem 1A Calculators</th>
             </tr>
 
             <tr>
                 <td class="tdClass01">
                     <img src="images\MedTechLogo.png"
-                    width="400"
-                    style="margin-left: auto;
-                           margin-right: auto;">
+                         width="75%"
+                         style="margin-left: auto;
+                                margin-right: auto;">
                 </td>
                 <td class="tdClass01">
                     <img src="images\YourIntroToBioLogo.png"
-                         width="400"
+                         width="75%"
+                         style="margin-left: auto;
+                                margin-right: auto;">
+                </td>
+                <td class="tdClass01">
+                    <img src="images\calculation_diagram.png"
+                         width="75%"
                          style="margin-left: auto;
                                 margin-right: auto;">
                 </td>
@@ -122,17 +131,26 @@
                         </button>
                     </a>
                 </td>
+                <td class="tdClass01">
+                    <a href="https://github.com/LucianoLL/Unofficial_Chem_1A_Calculators"
+                       target="_blank">
+                        <button class="buttonClass01">
+                            LINK TO GITHUB REPO
+                        </button>
+
+                    </a>
+                </td>
             </tr>
 
             <tr>
                 <td class="tdClass01">
-                        <div>
-                            <p style="font-size: 100%;">
-                                NOTE: if the site is taking a while to load or render, don't panic this is 
-                                cause the site goes offline due to server inactivty (aka. no one has been using
-                                the site for the last 50 seconds). Just give it some time and it should load.
-                            </p>
-                        </div>
+                    <div>
+                        <p style="font-size: 100%;">
+                            NOTE: if the site is taking a while to load or render, don't panic this is 
+                            cause the site goes offline due to server inactivty (aka. no one has been using
+                            the site for the last 50 seconds). Just give it some time and it should load.
+                        </p>
+                    </div>
                         
                 </td>
                 <td class="tdClass01">
@@ -140,9 +158,18 @@
                         <p style="font-size: 100%;">
                             NOTE: this is not a site, this a GitHub repo. 
                         </p>
+                    </div>                
+                </td>
+                <td class="tdClass01">
+                    <div>
+                        <p style="font-size: 100%;">
+                            NOTE: There is a Docker file, so you'll only need to install Docker Desktop 
+                            and all you'll have to do is run the Docker script.
+                            <br>
+                            There is also a wiki on the GitHub repo with instructions on how to run
+                            the files.
+                        </p>
                     </div>
-                    
-                
                 </td>
             </tr>
 
@@ -159,12 +186,12 @@
                         into an SQL database to more efficiently update data entries. 
                         <br>
                         &emsp; After attending a pre-health conference in Davis, I was inspired
-                        tp create this website to catalogue a variety of grade programs and majors
+                        tp create this website to catalogue a variety of grad programs and majors
                         that combine engineering, biology, and health. The site is an ongoing
                         project and is open source, the site is neither meant for any type of revenue
                         or monetization. Since this is also an independent project, there is no
-                        direct association or endorsement with any of the universities and
-                        institutions reference on the site.
+                        direct association with or endorsement of any university or institution referenced 
+                        on the site.
 
                     </p>
                 </td>
@@ -183,6 +210,27 @@
                         even a text file in the repo, "requirements.txt", with a list of the libraries and 
                         frameworks to run the app. The project is currently on hiatus as other projects and
                         factors in my life are taking priority. 
+                    </p>
+                </td>
+                <td class="tdClass01"
+                    style="vertical-align: text-top;">
+                    <p style="text-align: left;">
+                        &emsp; For a while I was attempting to pursue a minor degree in bioinformatics while
+                        doing my major degree in computer science. A requisite for the minor was to take the 
+                        chemistry series at UC Santa Cruz. Little issue with Chem 1A, the first course in the
+                        series, is that there is a large amount of calculations that need to be performed, 
+                        and it became really tedious. I created the calculators due to the Aleks software we
+                        used to do our homework in, any type of miscalculation would penalize your progress
+                        in any of the assignments.
+                        <br>
+                        &emsp; At the time I already completed the C++ Programming course during my 
+                        cross-enrollment at Cabrillo College, while also taking an algorithms course at UC 
+                        Santa Cruz that was partly taught in C++. So I took a week to write some C++ code, create 
+                        a data structure to store all elements of the periodic table, as well as writing several 
+                        C++ executables and client files. I created a client file to look up elements from the 
+                        custom data structure, being able to look up elements via name, symbol, and atomic number. 
+                        There's also the molar mass calculator, which calculates the molar mass of any chemical 
+                        formula given.
                     </p>
                 </td>
             </tr>
