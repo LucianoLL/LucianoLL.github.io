@@ -1,3 +1,12 @@
+div{
+    background-color: rgb(197, 116, 116);
+    border-color: #ffffff;
+    border-style: dashed;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 h1{
     color: #ffffff;
     font-family: Tahoma;
@@ -16,13 +25,42 @@ p{
     color: #ffffff;
     font-family: Tahoma;
     font-size: 150%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+th{
+    background-color: #588eb3;
+    border-style: solid;
+    color: #ffffff;
+    font-size: 200%;
+    font-family: monospace;
 }
 
 .tableClass01{
     margin-left: auto;
     margin-right: auto;
+}
+
+.tableClass02{
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: #ffffff;
+    border-collapse: collapse;
+    table-layout: fixed;
     width: 100%;
 }
+
+.tdClass01{
+    border-top-style: none;
+    border-color: #ffffff;
+    border-left-style: solid;
+    border-right-style: solid;
+    text-align: center;
+}
+
+
 
 .buttonClass01{
     background-color: #588eb3;
@@ -31,6 +69,8 @@ p{
     color: #ffffff;
     font-family: monospace;
     font-size: 150%;
+    width: 75%;
+    height: 75px
 }
 
 .hyperlinkClass01{
