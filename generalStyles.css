@@ -1,12 +1,3 @@
-div{
-    background-color: rgb(197, 116, 116);
-    border-color: #ffffff;
-    border-style: dashed;
-    margin-left: auto;
-    margin-right: auto;
-    width: 85%;
-}
-
 h1{
     color: #ffffff;
     font-family: Tahoma;
@@ -51,6 +42,66 @@ th{
     font-family: monospace;
 }
 
+.aClass01{
+    background-color: #588eb3;
+    border-style: solid;
+    color: #ffffff;
+    display: block;
+    font-family: monospace;
+    font-size: 250%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+.buttonClass01{
+    background-color: #588eb3;
+    border-style: solid;
+    border-color: #ffffff;
+    color: #ffffff;
+    font-family: monospace;
+    font-size: 150%;
+    width: 75%;
+    height: 75px
+}
+
+.buttonClass02{
+    background-color: #588eb3;
+    border-style: solid;
+    border-color:#ffffff;
+    color: #ffffff;
+    font-family: monospace;
+    font-size: 150%;
+}
+
+.divClass01{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 90%;
+    /* height: 75%; */
+}
+
+.divClass02{
+    background-color: rgb(197, 116, 116);
+    border-color: #ffffff;
+    border-style: dashed;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 85%;
+}
+
+.hyperlinkClass01{
+    color: #ffffff;
+    font-family:monospace;
+    font-size: 150%;
+    text-align: center;
+}
+
 .tableClass01{
     margin-left: auto;
     margin-right: auto;
@@ -79,22 +130,4 @@ th{
     font-family: sans-serif;
     font-size: 400%;
     background-color: rgb(197, 116, 116);
-}
-
-.buttonClass01{
-    background-color: #588eb3;
-    border-style: solid;
-    border-color: #ffffff;
-    color: #ffffff;
-    font-family: monospace;
-    font-size: 150%;
-    width: 75%;
-    height: 75px
-}
-
-.hyperlinkClass01{
-    color: #ffffff;
-    font-family:monospace;
-    font-size: 150%;
-    text-align: center;
 }

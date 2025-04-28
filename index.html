@@ -23,41 +23,71 @@
         <table style="margin-left: auto;
                       margin-right: auto;
                       table-layout: fixed;
+                      text-align: center;
                       width: 75%;">
             <tr>
                 <td style="text-align: center;">
-                    <a href="https://www.linkedin.com/in/luciano-loma-lorenzana-510371188/"
+                    <a class="aClass01"
+                       href="https://www.linkedin.com/in/luciano-loma-lorenzana-510371188/"
                        target="_blank">
-                        <button  class="buttonClass01">
-                            LinkedIn Profile
-                        </button>
+                        LinkedIn Profile
                     </a>
                 </td>
                 <td style="text-align: center;">
-                    <a href="https://github.com/LucianoLL"
+                    <a class="aClass01"
+                       href="https://github.com/LucianoLL"
                        target="_blank">
-                        <button class="buttonClass01">
-                            GitHub Profile
-                        </button>
+                        GitHub Profile
                     </a>
                 </td>
             </tr>
         </table>
 
         <br>
+        <hr>
+        <br>
+        <!-- Navigation Bar -->
+        <table class="tableClass02">
+            <tr>
+                <th class="thClass01"
+                    style="font-size: 200%;">Navigation Bar</th>
+                <table class="tableClass02"> 
+                    <tr>
+                        <td>
+                            <a href="#skillsID"
+                               class="aClass01">
+                                Skills
+                            </a>
+                        </td>
+                        <td>
+                            <a href="#projectID"
+                               class="aClass01">
+                                Personal Projects
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </tr>      
+        </table>
+
+
+        <br>
+        <hr>
+        <br>
 
         <!-- Introduction Table -->
         <table class="tableClass01"
-                style="background-color: rgb(197, 116, 116);
-                       border-style: solid;
-                       border-color: #ffffff;">
+               style="background-color: rgb(197, 116, 116);
+                      border-style: solid;
+                      border-color: #ffffff;">
             <tr>
                 <td>
                     <img src="images\selfPortrait.png"
                          width="400"
                          style="background-color: rgb(37, 47, 73);
                                 border-style: solid;
-                                border-color: #ffffff;"/>
+                                border-color: #ffffff;
+                                margin-left: 5%;"/>
                 </td>
                 <td>
                     <p>
@@ -88,7 +118,9 @@
 
         <br>
         
-        <table class="tableClass02">
+        <!-- Skills -->
+        <table class="tableClass02"
+               id="skillsID">
             <tr>
                 <th class="thClass01">Skills</th>
         
@@ -173,7 +205,8 @@
         <br>
 
         <!-- Personal Projects -->
-        <table class="tableClass02">
+        <table class="tableClass02"
+               id="projectID">
             <tr>
                 <th class="thClass01">Personal Projects</th>
                 <table class="tableClass02">
@@ -235,7 +268,7 @@
     
                     <tr>
                         <td class="tdClass01">
-                            <div>
+                            <div class="divClass02">
                                 <p style="font-size: 100%;">
                                     NOTE: if the site is taking a while to load or render, don't panic this is 
                                     cause the site goes offline due to server inactivty (aka. no one has been using
@@ -245,14 +278,14 @@
                                 
                         </td>
                         <td class="tdClass01">
-                            <div>
+                            <div class="divClass02">
                                 <p style="font-size: 100%;">
                                     NOTE: this is not a site, this a GitHub repo. 
                                 </p>
                             </div>                
                         </td>
                         <td class="tdClass01">
-                            <div>
+                            <div class="divClass02">
                                 <p style="font-size: 100%;">
                                     NOTE: There is a Docker file, so you'll only need to install Docker Desktop 
                                     and all you'll have to do is run the Docker script.
