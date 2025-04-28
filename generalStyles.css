@@ -56,6 +56,19 @@ th{
     text-decoration: none;
 }
 
+.aClass02{
+    background-color: #588eb3;
+    color: #ffffff;
+    display: block;
+    font-family: monospace;
+    font-size: 250%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-decoration: none;
+}
+
 .buttonClass01{
     background-color: #588eb3;
     border-style: solid;
@@ -116,6 +129,19 @@ th{
     border-collapse: collapse;
     table-layout: fixed;
     width: 90%;
+}
+
+.tableClass03{
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: #ffffff;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 90%;
+
 }
 
 .tdClass01{
