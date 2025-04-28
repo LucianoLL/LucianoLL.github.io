@@ -21,6 +21,20 @@ h2{
     text-align: center;
 }
 
+hr{
+    border-color: #ffffff;
+    border-block-width: 2px;
+    border-style: solid;
+}
+
+li{
+    color: #ffffff;
+    font-family:Tahoma;
+    font-size: 150%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 p{
     color: #ffffff;
     font-family: Tahoma;
@@ -50,7 +64,7 @@ th{
     border-color: #ffffff;
     border-collapse: collapse;
     table-layout: fixed;
-    width: 100%;
+    width: 90%;
 }
 
 .tdClass01{
@@ -59,6 +73,12 @@ th{
     border-left-style: solid;
     border-right-style: solid;
     text-align: center;
+}
+
+.thClass01{
+    font-family: sans-serif;
+    font-size: 400%;
+    background-color: rgb(197, 116, 116);
 }
 
 .buttonClass01{
