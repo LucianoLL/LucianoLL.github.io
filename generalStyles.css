@@ -1,172 +1,127 @@
 h1{
-    color: #ffffff;
-    font-family: Tahoma;
-    font-size: 450%;
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    font-size: 550%;
     text-align: center;
 }
 
 h2{
-    color: #ffffff;
-    font-family: Tahoma;
-    font-size: 150%;
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    font-size: 200%;
     text-align: center;
 }
 
 hr{
-    border-color: #ffffff;
+    border-color: rgb(0, 0, 0);
     border-block-width: 2px;
     border-style: solid;
 }
 
-li{
-    color: #ffffff;
-    font-family:Tahoma;
-    font-size: 150%;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
 p{
-    color: #ffffff;
-    font-family: Tahoma;
-    font-size: 150%;
-    margin-left: 5%;
-    margin-right: 5%;
+    display: inline-block;
+    flex: 1;
+    font-family: monospace;
+    font-size: 135%;
+    padding: 2%;
+    text-align: left;
+    }
+
+td{
+    background-color: rgb(200, 135, 5);
+    border-style: solid;
+    padding: 1%;
+    vertical-align: text-top;
 }
 
 th{
-    background-color: #588eb3;
+    background-color: rgb(60, 90, 70);
     border-style: solid;
-    color: #ffffff;
-    font-size: 300%;
     font-family: monospace;
+    font-size: 135%;
+    padding: 1%
 }
 
+
+
 .aClass01{
-    background-color: #588eb3;
+    background-color: rgb(200, 135, 5);
     border-style: solid;
-    color: #ffffff;
-    display: block;
+    color: rgb(0, 0, 0);
+    display: inline-block;
     font-family: monospace;
     font-size: 250%;
-    justify-content: center;
-    padding-bottom: 2%;
-    padding-top: 2%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+    padding: 1%;
     text-decoration: none;
 }
 
 .aClass02{
-    background-color: #588eb3;
-    color: #ffffff;
-    display: block;
+    background-color: rgb(60, 90, 70);
+    color: rgb(0, 0, 0);
+    display: table-cell;
     font-family: monospace;
-    font-size: 250%;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    text-decoration: none;
-}
-
-.aClass03{
-    background-color: #588eb3;
-    color: #ffffff;
-    display: block;
-    font-size: 100%;
+    font-size: 150%;
     padding: 1%;
-    text-align: center;
     text-decoration: none;
-    width: 25%;
+    width: auto;
 }
 
-.buttonClass01{
-    background-color: #588eb3;
+.container01{
+    background-color: rgb(155, 65, 50);
     border-style: solid;
-    border-color: #ffffff;
-    color: #ffffff;
-    font-family: monospace;
-    font-size: 150%;
-    width: 75%;
-    height: 75px
-}
-
-.buttonClass02{
-    background-color: #588eb3;
-    border-style: solid;
-    border-color:#ffffff;
-    color: #ffffff;
-    font-family: monospace;
-    font-size: 150%;
-}
-
-.divClass01{
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin:auto;
     text-align: center;
-    width: 90%;
-    /* height: 75%; */
+    width: 70%;
 }
 
-.divClass02{
-    background-color: rgb(197, 116, 116);
-    border-color: #ffffff;
-    border-style: dashed;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    width: 85%;
-}
-
-.hyperlinkClass01{
-    color: #ffffff;
-    font-family:monospace;
-    font-size: 150%;
-    text-align: center;
-}
-
-.tableClass01{
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-}
-
-.tableClass02{
-    margin-left: auto;
-    margin-right: auto;
+.container02{
+    background-color: rgb(200, 135, 5);
     border-style: solid;
-    border-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 1%;
+    width: 68%;
+}
+
+.imgClass01{
+    align-self: center;
+    background-color: rgb(55, 90, 100);
+    border-style: solid;
+    flex: 1;
+    margin: auto;
+    min-width: 100px;
+    max-width: 400px;
+    width: auto;
+}
+
+.itemHeader01{
+    border-bottom: solid;
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    font-size: 200%;
+    padding: .5%;
+}
+
+.sectionHeader{
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    font-size: 200%;
+    padding: .5%;
+
+}
+
+.skillsTable{
+    border-color: rgb(0, 0, 0);
+    margin: auto;
     border-collapse: collapse;
     table-layout: fixed;
-    width: 90%;
+    width: 70%;
 }
 
-.tableClass03{
-    margin-left: auto;
-    margin-right: auto;
-    border-bottom-style: solid;
-    border-left-style: solid;
-    border-right-style: solid;
-    border-color: #ffffff;
-    border-collapse: collapse;
-    table-layout: fixed;
-    width: 90%;
-
-}
-
-.tdClass01{
-    border-top-style: none;
-    border-color: #ffffff;
-    border-left-style: solid;
-    border-right-style: solid;
-    text-align: center;
-}
-
-.thClass01{
-    font-family: sans-serif;
-    font-size: 400%;
-    background-color: rgb(197, 116, 116);
+@media (max-width:1400px){
+    .container02{
+        flex-direction: column;
+    }
 }
