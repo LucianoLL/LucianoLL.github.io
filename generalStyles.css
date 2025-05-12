@@ -44,7 +44,7 @@ th{
 
 
 
-.aClass01{
+.externalLink{
     background-color: rgb(200, 135, 5);
     border-style: solid;
     color: rgb(0, 0, 0);
@@ -55,7 +55,7 @@ th{
     text-decoration: none;
 }
 
-.aClass02{
+.navLink{
     background-color: rgb(60, 90, 70);
     color: rgb(0, 0, 0);
     display: table-cell;
@@ -64,6 +64,28 @@ th{
     padding: 1%;
     text-decoration: none;
     width: auto;
+}
+
+.projectLink{
+    background-color: rgb(60, 90, 70);
+    border-style: solid;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-family: monospace;
+    font-size: 150%;
+    padding: 2%;
+    text-decoration: none;
+}
+
+.projectHeader{
+    background-color: rgb(60, 90, 70);
+    border-bottom-style: solid;
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    font-size: 150%;
+    margin: auto;
+    padding: 1%;
+    width: 70%;
 }
 
 .container01{
@@ -87,7 +109,6 @@ th{
 
 .imgClass01{
     align-self: center;
-    background-color: rgb(55, 90, 100);
     border-style: solid;
     flex: 1;
     margin: auto;

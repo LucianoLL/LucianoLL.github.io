@@ -26,12 +26,12 @@
         <!-- Hyperlink Buttons -->
          <div style="text-align: center;
                      margin:auto">
-                <a class="aClass01"
+                <a class="externalLink"
                    href="https://www.linkedin.com/in/luciano-loma-lorenzana-510371188/"
                    target="_blank">
                     LinkedIn Profile
                 </a>
-                <a class="aClass01"
+                <a class="externalLink"
                    href="https://github.com/LucianoLL"
                    target="_blank">
                     GitHub Profile
@@ -50,12 +50,12 @@
                         table-layout: fixed;
                         margin: auto;
                         width: 100%;">
-                <a class="aClass02"
+                <a class="navLink"
                     style="border-right: solid;"
                     href="#Skills">
                     Skills            
                 </a>
-                <a class="aClass02"
+                <a class="navLink"
                     href="#PersonalProjects">
                     Personal Projects
                 </a>
@@ -67,7 +67,8 @@
         <!-- Introduction -->
         <div class="container02">
             <img src="images/selfPortrait.png"
-                 class="imgClass01">
+                 class="imgClass01"
+                 style="background-color: rgb(55, 90, 100);">
             
             <p>
                 &emsp; My name is <b>Luciano Loma Lorenzana</b>, and I'm a current Pre-Health PostBacc 
@@ -101,13 +102,13 @@
         <br>
 
         <!-- Skills -->
-        <div class="container01">
+        <div class="container01"
+             id="Skills">
             <div class="sectionHeader">
                 Skills
             </div>
         </div>
-        <table class="skillsTable" 
-               id="Skills">
+        <table class="skillsTable">
             <tr>
                 <th>Coding Languages</th>
                 <th>Frameworks & Libraries</th>
@@ -169,6 +170,161 @@
             
         </table>
 
+        <br>
+
+        <!-- Personal Projects -->
+        <div class="container01"
+             id="PersonalProjects">
+            <div class="sectionHeader">
+                Personal Projects
+            </div>
+        </div>
+              
+        <div style="border-style: solid;
+                    border-top-style: none;
+                    margin: auto;
+                    width: 70%;">
+            <h2 class="projectHeader"
+                       style="width: auto;">
+                       MedTech Programs
+            </h2>
+            <div class="container02"
+                 style="border-style: none;
+                        width: auto;">
+                <div style="flex: 1;
+                            margin: auto;
+                            text-align: center">
+
+                    
+                    <img src="images/MedTechLogo.png"
+                         class="imgClass01"
+                         style="background-color: rgb(230, 215, 160);">
+
+                    <br>
+                    <a class="projectLink"
+                       href="https://medtechprograms.onrender.com/"
+                       target="_blank">
+                        Link to Website
+                    </a>
+                    <br>
+                    <p>
+                        NOTE: if the site is taking a while to load or render, don't panic this is 
+                        cause the site goes offline due to server inactivty (aka. no one has been using
+                        the site for the last 50 seconds). Just give it some time and it should load.
+                    </p>
+                </div>
+                <p>
+                    &emsp; This site was written in Python using Pandas and the Dash framework, 
+                    which are libraries and frameworks that I got familiarized with during my time 
+                    as a research assistant at UC Santa Cruz. The Dash framework is used to create 
+                    the layout and assets, basically the UI, and Pandas is used to store and organize
+                    the "database" of majors and programs. Since I'm one person working on the site,
+                    I just use a simple .csv file, but I am working on incorporating the database 
+                    into an SQL database to more efficiently update data entries. 
+                    <br>
+                    &emsp; After attending a pre-health conference in Davis, I was inspired
+                    to create this website to catalogue a variety of grad programs and majors
+                    that combine engineering, biology, and health. The site is an ongoing
+                    project and is open source, the site is neither meant for any type of revenue
+                    or monetization. Since this is also an independent project, there is no
+                    direct association with or endorsement of any university or institution referenced 
+                    on the site.
+                </p>
+            </div>
+        </div>
+
+        <br>
+        
+        <div style="border-style: solid;
+                    margin: auto;
+                    width: 70%;">
+            <h2 class="projectHeader"
+                style="width: auto;">
+                Your Intro To Bio
+            </h2>
+            <div class="container02"
+                 style="border-style: none;
+                        width: auto;">
+                <p>
+                    &emsp; This is more of an app rather than a website. This was my first attempt to
+                    creating my own Dash app. This app is still unfinished as the site was created while
+                    taking my first biology course at CSU East Bay, so the idea was to update the app 
+                    as I was going through the course. This project is also a bit of a successor to
+                    another project that I worked on, "Unofficial Chem 1A Calculators" with tools I
+                    developed while taking a chemistry course at UC Santa Cruz.
+                    <br>
+                    &emsp; While the site is not deployed, it is functional, you'll just have to install
+                    Python and the required libraries and frameworks to your machine/computer. There is 
+                    even a text file in the repo, "requirements.txt", with a list of the libraries and 
+                    frameworks to run the app. The project is currently on hiatus as other projects and
+                    factors in my life are taking priority. 
+                </p>
+                <div style="flex: 1;
+                            margin: auto;
+                            text-align: center">
+                    <img src="images\YourIntroToBioLogo.png"
+                         class="imgClass01"
+                         style="background-color: rgb(230, 215, 160);">
+
+                    <br>
+                    <a class="projectLink"
+                       href="https://github.com/LucianoLL/YourIntroToBio"
+                       target="_blank">
+                        Link to GitHub Repo
+                    </a>
+                    <br>
+                    <p>NOTE: this is not a site, this a GitHub repo.</p>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div style="border-style: solid;
+                    margin: auto;
+                    width: 70%;">
+            <h2 class="projectHeader"
+                style="width: auto;">
+                Nutri Slug
+            </h2>
+            <div class="container02"
+                 style="border-style: none;
+                        width: auto;">
+                <div style="flex: 1;
+                            margin: auto;
+                            text-align: center;">
+                    <img src="https://github.com/LucianoLL/cruzhacks_2024_key_caps/blob/main/frontend/src/Components/Images/nutrislug-icon.png?raw=true"
+                         class="imgClass01"
+                         style="background-color: rgb(230, 215, 160);">
+                    <br>
+                    <a class="projectLink"
+                       href="https://github.com/LucianoLL/cruzhacks_2024_key_caps"
+                       target="_blank">
+                        Link to GitHub Repo
+                    </a>
+                    <p>
+                        NOTE: I want to add that I was in charge of purely the AI backend, any frontend, graphics and images,
+                        and web scrapping were created by my teammates Michael Alaniz, Rudy Chavez, and Kyle Delmo.
+                    </p>
+                </div>
+                <p>
+                    &emsp; This is my team's project from the 2024 CruzHacks Hackathon. My team was known as Key_Caps,
+                    and the team consisted of me, Michael Alaniz, Rudy Chavez, and Kyle Delmo. We developed an app that would
+                    create, in real time, a vareity of meals based on the options provided at the UC Santa Cruz dinning halls.
+                    Depeding on the time of day, breakfast in the morning for example, the user would select a dinning hall
+                    on campus, select their dietary needs, and the app's AI would generate meal combinations for the user. The 
+                    AI would also give a vareity of meal combinations, all considerng the user's dietary needs, based on calories,
+                    amount of sugar, and even protein content.
+                    <br>
+                    &emsp; I was in charge of creating the AI for the app. I decided to go with a generative algorithm with a 
+                    fitness function, seemed to be the most straightforward solution to generating meal combinations. So when
+                    the user would select their dietary needs, like lactose intolernace, or any food allergy, the AI would
+                    account for those and create plates that are safe for the user's consumption. While the backend AI was
+                    mostly completed, we had issues having the React frontend interacting with the Python backend. At the same time,
+                    since the project was made in roughly two days, the web scrapping would sometimes take a while to execute.
+                </p>
+            </div>                
+        </div>
  
 
 </html>
